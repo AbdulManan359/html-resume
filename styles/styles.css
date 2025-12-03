@@ -1,3 +1,7 @@
+* {
+    font-family:'Arial'
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -40,4 +44,5 @@ p {
 
 .github img {
     margin-bottom: -0.5%;
+
 }
