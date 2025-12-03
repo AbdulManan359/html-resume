@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1%;
+}
+
+p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.3em;
+}
+
+.selfIntroPara {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1%;
+}
+
+.github {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.mail {
+    text-align: end;
+}
+
+.selfIntroPara img {
+    margin-bottom: -1.3%;
+}
+
+.github img {
+    margin-bottom: -0.5%;
+}
