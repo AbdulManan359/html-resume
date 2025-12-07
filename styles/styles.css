@@ -41,8 +41,12 @@ p {
 .selfIntroPara img {
     margin-bottom: -1.3%;
 }
+.blur {
+    filter:blur(6px);
+}
 
 .github img {
     margin-bottom: -0.5%;
 
 }
+
